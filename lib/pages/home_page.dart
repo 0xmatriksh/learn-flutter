@@ -8,6 +8,7 @@ class HomePage extends StatelessWidget {
         title: Text('Flutter Catalog'),
       ),
       body: Center(child: Text('This is Home Page')),
+      drawer: Drawer(),
     );
   }
 }
